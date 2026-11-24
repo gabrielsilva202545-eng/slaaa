@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #f8fafc;
+    color: #0f172a;
+  }
+}
+
+.wms-unavailable-hatch {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(225, 29, 72, 0.06),
+    rgba(225, 29, 72, 0.06) 5px,
+    rgba(255, 255, 255, 0.7) 5px,
+    rgba(255, 255, 255, 0.7) 10px
+  );
+}

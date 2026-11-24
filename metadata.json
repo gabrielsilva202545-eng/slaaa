@@ -1,0 +1,6 @@
+{
+  "name": "WMS Estrutura — Gestão de Armazém",
+  "description": "Sistema WMS simplificado para mapeamento físico de 150 posições porta-paletes, recebimento (putaway), separação (picking) e controle de ocupação.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
